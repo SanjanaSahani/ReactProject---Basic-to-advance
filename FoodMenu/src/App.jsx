@@ -1,14 +1,19 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import items from './data'
 import './App.css'
+import Card from './component/Card'
+import Category from './component/Category'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [MenuItems, setMenuItems] = useState(items)
 
   return (
     <>
-    <h1 className='text-4xl font-bold font-serif text-pink-700 text-center m-4'>Food Menu Page</h1>
+    <h1 className='text-4xl font-bold font-serif text-black text-center m-4'>Food Menu Page</h1>
+    <div>
+      <Category/>
+      <Card items={MenuItems}/>
+    </div>
      </>
   )
 }
