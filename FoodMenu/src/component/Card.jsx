@@ -4,8 +4,8 @@ import React from 'react'
 function Card({items}) {
     return (
         <>
-            {items.map((MenuItems) => {
-                const { id, img, title, price, desc } = MenuItems;
+            {items.map((menuItems) => {
+                const { id, img, title, price, desc } = menuItems;
                 return <div key={id}>
                     <article className='flex justify-center content-center gap-4'>
                         <div >

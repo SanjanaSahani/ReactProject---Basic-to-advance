@@ -2,7 +2,7 @@ const recipeCard = [
     {
         id: 1,
         category: "breakfast",
-        img: "https://www.themealdb.com/images/media/meals/swichu1517805855.jpg",
+        img: "./images/breakfast1.jpg",
         title: "Bread Sandwitch",
         price: "$ 15.99",
         desc: "A delightful sandwich made with fresh bread and assorted fillings."
@@ -10,7 +10,7 @@ const recipeCard = [
     {
         id: 2,
         category: "dinner",
-        img: "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg",
+        img: "./images/dinner1.jpg",
         title: "Country Delight",
         price: "$ 25.09",
         desc: "A hearty dish featuring seasonal vegetables and savory spices."
@@ -18,7 +18,7 @@ const recipeCard = [
     {
         id: 3,
         category: "breakfast",
-        img: "https://www.themealdb.com/images/media/meals/1550441882.jpg",
+        img: "./images/breakfast2.jpg",
         title: "Bread P Eggs",
         price: "$ 10.99",
         desc: "Fluffy eggs served on toasted bread, perfect for a morning boost."
@@ -26,7 +26,7 @@ const recipeCard = [
     {
         id: 4,
         category: "dessert",
-        img: "https://www.themealdb.com/images/media/meals/1543774956.jpg",
+        img: "./images/desert.jpg",
         title: "Pancake",
         price: "$ 18.99",
         desc: "Light and fluffy pancakes topped with fresh raspberries and syrup."
@@ -34,7 +34,7 @@ const recipeCard = [
     {
         id: 6,
         category: "dessert",
-        img: "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
+        img: "./images/dessert1.jpg",
         title: "Waffle",
         price: "$ 715.99",
         desc: "Crispy waffles drizzled with maple syrup and topped with whipped cream."
@@ -42,7 +42,7 @@ const recipeCard = [
     {
         id: 7,
         category: "breakfast",
-        img: "https://www.themealdb.com/images/media/meals/sxysrt1468240488.jpg",
+        img: "./images/breakfast3.jpg",
         title: "Double Delight",
         price: "$ 115.99",
         desc: "Two eggs cooked to perfection, served with a side of crispy bacon."
@@ -50,7 +50,7 @@ const recipeCard = [
     {
         id: 8,
         category: "drink",
-        img: "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg",
+        img: "./images/drink1.jpg",
         title: "Double Mojito",
         price: "$ 115.99",
         desc: "A refreshing minty drink with a twist of lime and sugar."
@@ -58,7 +58,7 @@ const recipeCard = [
     {
         id: 9,
         category: "dinner",
-        img: "https://www.themealdb.com/images/media/meals/qxutws1486978099.jpg",
+        img: "./images/dinner3.jpg",
         title: "Gourmet dinner",
         price: "$ 615.99",
         desc: "A gourmet dinner featuring figs and a selection of fine cheeses."
@@ -66,7 +66,7 @@ const recipeCard = [
     {
         id: 10,
         category: "dinner",
-        img: "https://www.themealdb.com/images/media/meals/ytpstt1511814614.jpg",
+        img: "./images/dinner2.jpg",
         title: "Potato Mix",
         price: "$ 10.99",
         desc: "Savory potatoes mix with eggs infused with bay leaves, served on toasted bread."
@@ -74,7 +74,7 @@ const recipeCard = [
     {
         id: 11,
         category: "dessert",
-        img: "https://www.themealdb.com/images/media/meals/1517115282.jpg",
+        img: "./images/dessert2.jpg",
         title: "Berries Pudding",
         price: "$ 65.99",
         desc: "Creamy pudding made with fresh raspberries and topped with mint."
@@ -82,7 +82,7 @@ const recipeCard = [
     {
         id: 12,
         category: "shakes",
-        img: "https://www.themealdb.com/images/media/meals/sypxpx1515365095.jpg",
+        img: "./images/shake2.jpg",
         title: "Fig Shake",
         price: "$ 115.99",
         desc: "A smooth shake blended with ripe figs and creamy yogurt."
@@ -90,7 +90,7 @@ const recipeCard = [
     {
         id: 13,
         category: "dessert",
-        img: "https://www.themealdb.com/images/media/meals/uwvpww1511788535.jpg",
+        img: "./images/dessert3.jpg",
         title: "Dinner Double",
         price: "$ 115.99",
         desc: "A sumptuous dessert platter featuring various sweet treats."
@@ -98,7 +98,7 @@ const recipeCard = [
     {
         id: 14,
         category: "dessert",
-        img: "https://www.themealdb.com/images/media/meals/txtxsp1511815754.jpg",
+        img: "./images/dessert4.jpg",
         title: "Choco Double",
         price: "$ 315.99",
         desc: "Rich chocolate dessert layered with cream and topped with nuts."
@@ -106,7 +106,7 @@ const recipeCard = [
     {
         id: 15,
         category: "dinner",
-        img: "https://www.themealdb.com/images/media/meals/vvtvtr1511190578.jpg",
+        img: "./images/dinner4.jpg",
         title: "Grilled Fish",
         price: "$ 115.99",
         desc: "Grilled fish served with a side of vegetables and aromatic herbs."
@@ -114,7 +114,7 @@ const recipeCard = [
     {
         id: 16,
         category: "dessert",
-        img: "https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg",
+        img: "./images/dessert5.jpg",
         title: "Icecream Mocka",
         price: "$ 25.99",
         desc: "Delicious mocha ice cream topped with chocolate flakes."
@@ -122,10 +122,58 @@ const recipeCard = [
     {
         id: 17,
         category: "drink",
-        img: "https://www.themealdb.com/images/media/meals/1550441882.jpg",
+        img: "./images/drink2.jpg",
         title: "Mint Lime Juice",
         price: "$ 110.09",
         desc: "A zesty lime drink infused with fresh mint leaves."
     },
+    {
+        id: 18,
+        category: "dinner",
+        img: "./images/dinner5.jpg",
+        title: "Salmon Peperoni",
+        price: "$ 105.29",
+        desc: "Grilled salmon seasoned with pepper and served with a lemon wedge."
+    },
+    {
+        id: 19,
+        category: "breakfast",
+        img: "./images/breakfast4.jpg",
+        title: "Egg Double",
+        price: "$ 16.79",
+        desc: "Double the eggs, double the fun! Served with toast."
+    },
+    {
+        id: 20,
+        category: "shakes",
+        img: "./images/shake3.jpg",
+        title: "Chocolate Mocka",
+        price: "$ 185.99",
+        desc: "A rich chocolate shake infused with refreshing mint."
+    },
+    {
+        id: 21,
+        category: "dinner",
+        img: "./images/dinner6.jpg",
+        title: "Double Feast",
+        price: "$ 105.09",
+        desc: "A grand feast featuring various meat and vegetable dishes."
+    },
+    {
+        id: 22,
+        category: "drink",
+        img: "./images/drinks.jpg",
+        title: "Lemon Drink",
+        price: "$ 5.99",
+        desc: "A refreshing lemonade perfect for hot summer days."
+    },
+    {
+        id: 23,
+        category: "shakes",
+        img: "./images/shake1.jpg",
+        title: "Fig Shake",
+        price: "$ 5.99",
+        desc: "A refreshing lemonade perfect for hot summer days."
+    }
 ];
 export default recipeCard
